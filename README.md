@@ -1,6 +1,8 @@
 # todoapp
 a to do app made using node and mongodb
 
+![Sample Image](http://i.imgur.com/AO0GUHg.png)
+
 ## how to run
 
 1. Install [node.js](https://nodejs.org/en/), [mongodb](https://www.mongodb.com/), and [npm](https://www.npmjs.com/).
