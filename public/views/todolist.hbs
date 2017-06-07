@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="page-header">
+    <h1>What's on your agenda?</h1>
+  </div>
+
+  <div class="input-group">
+    <input type="text" class="form-control" name="task" placeholder="Add a task...">
+    <span class="input-group-btn">
+      <button id="add-button" class="btn btn-default" type="button">Add</button>
+    </span>
+  </div>
+
+  <div class="list-group">
+    {{#each incompleteTasks}}
+    <div class="list-group-item">
+      <p data-id="{{ _id }}">{{task}}</p>
+
+      <div class="icon-container">
+        <i class="fa fa-check" aria-hidden="true"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+  <div class="list-group">
+    {{#each completeTasks}}
+    <div class="list-group-item disabled">
+      <p data-id="{{ _id }}">{{task}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>

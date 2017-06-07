@@ -1,0 +1,30 @@
+body .container{
+  width: 600px;
+}
+
+.container h1{
+  font-size: 30px;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+p{
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.icon-container{
+  float: right;
+  display: inline-block;
+}
+
+.fa-check{
+  color: #43ef88;
+}
+
+.fa-times{
+  color: #d1d1d1;
+}
